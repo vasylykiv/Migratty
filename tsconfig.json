@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "composite": true,
+    "target": "es2024",
+    "module": "es2022",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": false,
+    "pretty": true,
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "baseUrl": "app",
+    "outDir": "lib"
+  },
+  "include": ["app/**/*"]
+}

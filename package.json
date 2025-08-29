@@ -1,0 +1,30 @@
+{
+  "name": "migratty",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app.ts",
+  "scripts": {
+    "dev": "tsx app/src/app.ts",
+    "dev1": "tsc"
+  },
+  "keywords": [
+    "postgress-migratty",
+    "migration-runner",
+    "migrate-runner",
+    "migratty",
+    "pg-migratty"
+  ],
+  "author": "Vitaliy Vasylykiv",
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "jest": "^30.1.1",
+    "ts-jest": "^29.4.1",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "pg": "^8.16.3"
+  }
+}
