@@ -15,10 +15,10 @@ I added the ability to initialize a basic _Migratty_ . By default, it is named `
 
 ```yaml
 {
-      init: {
-            baseDir: "string", #/"Input directory (where to get files from)"
-            outDir: "string", #/"Output directory (where to put the result)"
-      }
+  init: {
+    baseDir: "string", 
+    outDir: "string", 
+  }
 }
 ```
 
