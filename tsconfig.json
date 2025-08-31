@@ -13,5 +13,5 @@
     "baseUrl": "app",
     "outDir": "lib"
   },
-  "include": ["app/**/*"]
+  "include": ["src/**/*"]
 }
